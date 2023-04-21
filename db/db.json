@@ -1,0 +1,185 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Italiano"
+      },
+      {
+        "id": 6,
+        "tipo": "Sem Glúten"
+      },
+      {
+        "id": 7,
+        "tipo": "3 Grãos"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      },
+      {
+        "id": 5,
+        "tipo": "Costela"
+      },
+      {
+        "id": 6,
+        "tipo": "Patinho"
+      },
+      {
+        "id": 7,
+        "tipo": "Frango"
+      },
+      {
+        "id": 8,
+        "tipo": "Costela Suina"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 7,
+        "tipo": "Alface"
+      },
+      {
+        "id": 8,
+        "tipo": "Anel de cebola"
+      },
+      {
+        "id": 9,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 10,
+        "tipo": "Queijo prato"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "nome": "Joao",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Denilson ",
+      "carne": "Patinho",
+      "pao": "Italiano",
+      "opcionais": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Maria Joaquina",
+      "carne": "",
+      "pao": "Sem Glúten",
+      "opcionais": [
+        "Bacon",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Joana",
+      "carne": "Alcatra",
+      "pao": "Integral",
+      "opcionais": [
+        "Tomate",
+        "Salame",
+        "Alface"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "Luca",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Mussarela",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    }
+  ]
+}
